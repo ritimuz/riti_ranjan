@@ -1,0 +1,92 @@
+/* Heading styles*/
+h1,h2 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 48px;
+  line-height: 1.3;
+  font-weight: 900;
+  color: #000;
+}
+
+/* All section styles*/
+section {
+  padding-top: 90px;
+}
+
+
+
+.heading:after {
+  content: " ";
+  display:block;
+  width:208px;
+  height: 3px;
+  background: #000;
+}
+
+/*
+footer
+*/
+footer {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* media query*/
+
+@media (max-width:768px) {
+  .images {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  .last {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .images {
+    margin: 8px 0;
+  }
+}
+@media (min-width: 992px) {
+  .last {
+    display: none;
+  }
+}
+
+.heading-about:after {
+  content: '';
+  display: block;
+  width: 150px;
+  height: 3px;
+  background: #000;
+}
+
+.riti1 {
+  border-radius: 100%;
+}
+
+.intro {
+  margin-top: 65px;
+}
+
+.intro-bio {
+  font-size: 1.2em;
+}
+
+#riti-pic {
+  margin-top: 15px;
+}
+
+.about-progress {
+  padding-left: 20px;
+  font-size: 1.2em;
+}
+
+@media (max-width:992px) {
+  .small-img {
+    padding-left: 13%;
+    padding-right: 13%;
+  }
+}
