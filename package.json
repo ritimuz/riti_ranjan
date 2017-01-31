@@ -1,0 +1,28 @@
+{
+  "name": "riti",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "live-server --port=8888"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nirajgeorgian/riti.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nirajgeorgian/riti/issues"
+  },
+  "homepage": "https://github.com/nirajgeorgian/riti#readme",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "webpack": "^1.14.0"
+  },
+  "dependencies": {
+    "rxjs": "^5.0.3"
+  }
+}
